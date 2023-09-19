@@ -1,0 +1,9 @@
+.main-page{
+    position: relative;
+}
+
+.homepage{
+    position: absolute;
+    top: 0rem;
+    z-index: -100;
+}

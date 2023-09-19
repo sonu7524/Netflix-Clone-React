@@ -1,0 +1,135 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(to top, transparent 0%, rgb(0,0,0, 0.3) 50%);
+    width: 99%;
+    padding: 0.5rem 0rem;
+    position: fixed;
+    z-index: 999;
+    margin-top: -0.5rem;
+
+
+    &.scrolled{
+      background-color: var(--black);
+    }
+}
+
+
+
+
+
+.logo{
+    width: 8rem;
+}
+.profile{
+    display: flex;
+    align-items: center;
+}
+span{
+  cursor: pointer;
+  padding: 10px;
+}
+.options{
+  width: 6rem;
+  background-color: var(--black);
+  margin-top: 11rem;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  right: 1rem;
+}
+
+.profile-image{
+    width: 2.5rem;
+    border-radius: 0.5rem;
+}
+
+.left-menus{
+    display: flex;
+    gap: 1rem;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 3rem;
+}
+.desktop-menus{
+    display: flex;
+    gap: 1rem;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.right-menus{
+    position: absolute;
+    display: flex;
+    gap: 1rem;
+    justify-content: flex-start;
+    align-items: center;
+    right: 1rem;
+    padding-right: 3rem;
+}
+
+.expanded{
+    position: relative;
+    display: flex;
+    padding: 0.5rem 1rem;
+}
+
+.expanded {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+  }
+  
+  .search_input {
+    font-family: inherit;
+    font-size: inherit;
+    border: none;
+    color: var(--white);
+    padding: 0.7rem 1rem;
+    border-radius: 30px;
+    width: 12em;
+    transition: all ease-in-out .5s;
+    margin-right: -2rem;
+  }
+  
+  .search_input:hover, .search__input:focus {
+    box-shadow: 0 0 1em #00000013;
+  }
+  
+  .search__input:focus {
+    outline: none;
+    background-color: #f0eeee;
+  }
+  
+  .search_input::-webkit-input-placeholder {
+    font-weight: 100;
+    color: #ccc;
+  }
+  
+  .search__input:focus + .search__button {
+    background-color: #f0eeee;
+  }
+  
+  .search_button {
+    border: none;
+    margin-top: .1em;
+  }
+  
+  .search_button:hover {
+    cursor: pointer;
+  }
+  
+  /* .search__icon {
+    height: 1.3em;
+    width: 1.3em;
+    fill: #b4b4b4;
+  } */
+
+@media (max-width: 980px) {
+    .desktop-menus{
+        display: none;
+    }
+}

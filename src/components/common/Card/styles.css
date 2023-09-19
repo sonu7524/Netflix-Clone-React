@@ -1,0 +1,16 @@
+.show-card{
+    width: 20rem;
+    height: 4rem;
+    display: flex;
+    flex-direction: column;
+    background-color: #303030;
+}
+.card-details{
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem 0.5rem;
+}
+.card-icons{
+    display: flex;
+    gap: 1rem;
+}

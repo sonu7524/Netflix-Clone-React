@@ -1,0 +1,47 @@
+.font-display{
+    position: relative;
+}
+.main-img{
+    width: 101.5%;
+    height: 100%;
+}
+
+.main-img-details{
+    position: absolute;
+
+    padding-left: 3rem;
+    padding-top: 10rem;
+    padding-right: 53rem;
+    padding-bottom: 22rem;
+    top: 0;
+    background:linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 90%);
+}
+
+.buttons{
+    display: flex;
+    gap: 1rem;
+}
+
+.main-collection{
+    position: absolute;
+    bottom: -3rem;
+    margin-left: 1.5rem;
+}
+
+.card-collection{
+    display: flex;
+    gap: 1rem;
+}
+
+.categorywise-collection{
+    margin-top: 5rem;
+    margin-left: 1.5rem;
+}
+
+h2{
+    margin-left: 1.5rem;
+}
+
+.card{
+    cursor: pointer;
+}
